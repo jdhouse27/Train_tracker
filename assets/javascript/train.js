@@ -32,10 +32,10 @@ $("#addTrain-btn").on("click", function(event) {
 
     database.ref().push(newTrain);
 
-    $("#trainName-input").val("Polar Express");
-    $("#destination-input").val("North Pole");
-    $("#firstTrain-input").val("00:00");
-    $("#frequency-input").val("10");
+    $("#trainName-input").val("");
+    $("#destination-input").val("");
+    $("#firstTrain-input").val("");
+    $("#frequency-input").val("");
     });
 
     database.ref().on("child_added", function(snapshot) {

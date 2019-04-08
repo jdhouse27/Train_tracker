@@ -1,3 +1,28 @@
 body {
-    background-image: url(".assets/images/station.jpg");
+    background-image: url("../images/station.jpg");
+    max-width: 100%;
+    height: auto;
+}
+
+jumbotron {
+    padding-bottom: 0;
+}
+.title {
+    font-family: monospace;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: monospace;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.card-header{
+    font-family: monospace;
+}
+
+.card-body {
+    font-family: monospace;
 }
